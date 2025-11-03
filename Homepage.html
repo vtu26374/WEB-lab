@@ -1,0 +1,104 @@
+HTML CODE:
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StyleRack - Dress Shopping</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>StyleRack</h1>
+
+<p>Your Trendy Dress Stop</p>
+
+</header>
+
+<section class="product-grid">
+
+<div class="product-card">
+
+<img src="Red Gown" alt="Red Gown">
+
+<h2>Red Gown</h2>
+
+<p>1,999</p>
+
+</div>
+
+<div class="product-card">
+
+<img src="Blue Kurti" alt="Blue Kurti">
+
+<h2>Blue Kurti</h2>
+
+<p>799</p>
+
+</div>
+
+<div class="product-card">
+
+<img src="Green Saree" alt="Green Saree">
+
+<h2>Green Saree</h2>
+
+<p>2,499</p>
+
+</div>
+
+<div class="product-card">
+
+<img src="Black Dress" alt="Black Dress">
+
+<h2>Black Dress</h2>
+
+<p>*1,299</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2025 StyleRack | All rights reserved.</p>
+
+</footer>
+
+</body>
+
+</html>
+CSS CODE: body { } margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #fff0f5;
+
+header {
+
+} text-align: center; background-color: #e91e63; color: white; padding: 1.5rem;
+
+header h1 { } margin: 0; font-size: 2.5rem;
+
+.product-grid {
+
+} display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; padding: 2rem;
+
+.product-card { background-color: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s; }
+
+.product-card:hover { } transform: scale(1.05);
+
+.product-card img { } width: 100%; border-radius: 8px;
+
+.product-card h2 { margin: 0.5rem 0; font-size: 1.2rem; }
+
+footer {
+
+background-color: #e91e63; color: white; text-align: center; padding: 1rem; }
