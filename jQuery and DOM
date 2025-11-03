@@ -1,0 +1,60 @@
+Program-
+
+<!DOCTYPE html>
+
+<html lange "en's
+
+<head>
+
+<meta charset="UTF-8">
+
+<title> jQuery- parse HTML demo </title>
+
+<script src="https://code.jquery.com/jquery-35-0
+
+js"></script>
+
+<thead>
+
+<body>
+
+<div id="log>
+
+<h> Content:</h3>
+
+</div>
+
+<script>
+
+Var blog = $('#log"),
+
+Str. hello, <b> my nome is </b> jQuery; html=
+
+$.parse HTML (str), node Names = [];
+
+//Append the Parsed HTML
+$log. append (html);
+
+1 Gather the passed HTML's node names
+
+$each (html, function (i, el) {
+
+nodeNames[i] = "adis" + ele nodeName + '</li>'"s
+
+3)
+
+// Insert the node names
+
+$log-append("<h3>Node Namas: </h3>");
+
+$("<ol> </ol>")
+
+append (nodeNames-join(""))
+
+append To ($109);
+
+</script>
+
+</body>
+
+</html>
